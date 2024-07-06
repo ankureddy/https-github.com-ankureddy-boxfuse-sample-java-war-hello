@@ -82,10 +82,10 @@
     <script>
         function showSubItems(category) {
             var subItems = {
-                Biryani: ['Chicken Biryani', 'Mutton Biryani', 'Veg Biryani'],
+                Biryani: ['Egg Biryani', 'Mutton Biryani', 'Veg Biryani'],
                 Curries: ['Butter Chicken', 'Palak Paneer', 'Chana Masala'],
                 Pizzas: ['Margherita', 'Pepperoni', 'BBQ Chicken'],
-                Starters: ['Paneer Tikka', 'Chicken 65', 'Spring Rolls']
+                Starters: ['Chicken Tikka', 'Chicken 65', 'Spring Rolls']
             };
 
             var itemsList = subItems[category].map(function(item) {
