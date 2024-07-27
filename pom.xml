@@ -54,12 +54,12 @@
 
     <distributionManagement>
         <snapshotRepository>
-            <id>nexusRepo</id>
-            <url>http://13.233.216.155:8081/repository/sample-snapshots/</url>
+            <id>sampleRepo</id>
+            <url>http://3.109.56.166:8081/repository/sai-snapshot/</url>
         </snapshotRepository>
         <repository>
-            <id>nexusRepo</id>
-            <url>http://13.233.216.155:8081/repository/sample-relases/</url>
+            <id>sampleRepo</id>
+            <url>http://3.109.56.166:8081/repository/sai-release/</url>
         </repository>
     </distributionManagement>
 </project>
